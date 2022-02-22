@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <Style>
+     body {
+         font-family: Arial, Helvetica, sans-serif;
+         background-color: dimgray;
+         margin: 0px;
+         }
+    header{
+         background-color: white;
+         padding: 10px;
+         margin: 10px;
+        }
+     nav {
+         background-color: rgb(102,102,102);
+         padding: 3px;
+         box-shadow: 1px 1 px 1px black;
+     }
+
+     nav > a {
+         text-decoration: none;
+         color: white;
+         font-weight: bold;
+         margin-right: 30px;
+     }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 20px 30px 40px;
+        } 
+
+    article{
+        background-color: lightgray;
+        padding: 5px;
+    }    
+        
+     article > aside { 
+         background-color: rgb(165,165,165);
+
+     }   
+     footer{
+         background-color: black;
+         color: white;
+         text-align: center;
+         padding: 0px;
+         margin: 0px;
+     }
+     div#bola{
+         height: 100px;
+         width: 100px;
+         margin: 10px;
+         background-color: white;
+         border-radius: 50%;
+     }
+    </Style>
+
+
+
+</head>
+<body>
+    <header>
+     <h1>Meu site</h1>
+     <nav>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+         <a href="#">Link</a>
+              </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+ <section id="notícias">
+    <article>
+        <h2>Notícias sobre o Brasil</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt quaerat amet ea. Vero voluptatem quisquam reiciendis ut nihil doloribus pariatur, minus omnis rerum iure natus aperiam, magni nesciunt. Nemo, beatae.</p>
+    <aside>
+    <p>Artigo escrito por José da Silva</p>
+</aside>
+</article>
+ </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
